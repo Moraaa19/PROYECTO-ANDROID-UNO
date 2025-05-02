@@ -1,0 +1,46 @@
+/* Estilo para centrar el contenido y agregar un fondo */
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Altura completa del navegador */
+            display: flex; /* Usar Flexbox */
+            flex-direction: column; /* Organizar elementos en columna */
+            justify-content: center; /* Centrar elementos verticalmente */
+            align-items: center; /* Centrar elementos horizontalmente */
+            background-image: url('IMÁGENES/FONDO NUEVO.png'); /* Cambia esto por tu imagen */
+            background-size: cover; /* Ajustar la imagen al tamaño de la pantalla */
+            background-position: center; /* Centrar la imagen */
+            background-repeat: no-repeat; /* No repetir la imagen */
+        }
+
+/* Contenedor principal */
+.container {
+    text-align: center; /* Centrar el texto */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 30px 40px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    color: white; /* Texto blanco */
+}
+
+/* Título */
+h1 {
+    font-size: 2.5rem; /* Tamaño del título */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+/* Botón */
+.ingreso-btn {
+    padding: 10px 20px; /* Tamaño del botón */
+    font-size: 1.2rem; /* Tamaño del texto del botón */
+    color: white;
+    background-color: #3498db; /* Azul */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    transition: background-color 0.3s;
+}
+
+.ingreso-btn:hover {
+    background-color: #2980b9; /* Azul más oscuro al pasar el mouse */
+}

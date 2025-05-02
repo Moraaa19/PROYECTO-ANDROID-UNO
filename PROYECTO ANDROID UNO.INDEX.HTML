@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen con Alineación</title>
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Altura completa del navegador */
+            display: flex; /* Usar Flexbox */
+            flex-direction: column; /* Organizar elementos en columna */
+            justify-content: center; /* Centrar verticalmente los elementos */
+            align-items: center; /* Centrar horizontalmente los elementos */
+            background-image: url('IMÁGENES/FONDO NUEVO.png'); /* Cambia esto por tu imagen */
+            background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* No repetir la imagen */
+        }
+
+        /* Título en la parte superior */
+        h1 {
+            margin: 0;
+            position: absolute;
+            top: 20px; /* Pegado a la parte superior */
+            left: 50%; /* Centrado horizontalmente */
+            transform: translateX(-50%); /* Corrección para centrar el texto */
+            font-size: 4rem; /* Tamaño de la letra */
+            color: white;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar */
+        }
+
+        /* Botón centrado */
+        button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #3498db;
+            border: none;
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambiar cursor al pasar el mouse */
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    <button>Ingresar</button>
+</body>
+</html>
